@@ -16,6 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.gjnm.androiddraw.ChangeArgbActivity"
+            android:launchMode="singleTop">
+        </activity>
+
+        <activity android:name="com.gjnm.androiddraw.DrawRulerActivity"
+            android:launchMode="singleTop">
+        </activity>
+
+        <activity android:name="com.gjnm.androiddraw.DravHeartActivity"
+            android:launchMode="singleTop">
+        </activity>
     </application>
 
 </manifest>
