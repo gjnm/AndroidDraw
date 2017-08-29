@@ -49,6 +49,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.but04:
+                intent = new Intent(MainActivity.this, VectorActivity.class);
+                startActivity(intent);
                 break;
         }
     }
