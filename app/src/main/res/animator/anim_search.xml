@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:androd="http://schemas.android.com/apk/res/android"
+    androd:duration="1500"
+    androd:propertyName="trimPathStart"
+    androd:repeatCount="infinite"
+    androd:repeatMode="reverse"
+    androd:valueFrom="1"
+    androd:valueTo="0"
+    androd:valueType="floatType">
+
+</objectAnimator>

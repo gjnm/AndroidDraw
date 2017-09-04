@@ -13,6 +13,9 @@ import android.widget.ImageView;
 
 public class VectorActivity extends AppCompatActivity {
     public ImageView arrow;
+    public ImageView searchBar;
+    public ImageView path;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,9 +25,18 @@ public class VectorActivity extends AppCompatActivity {
 
     private void init() {
         arrow = (ImageView) findViewById(R.id.arrow);
-        Drawable drawable = arrow.getDrawable();
-        if(drawable instanceof Animatable){
-            ((Animatable)drawable).start();
+        searchBar = (ImageView) findViewById(R.id.search_bar);
+        path = (ImageView) findViewById(R.id.path);
+        if(arrow.getDrawable() instanceof Animatable){
+            ((Animatable)arrow.getDrawable()).start();
+        }
+
+        if(searchBar.getDrawable() instanceof Animatable){
+            ((Animatable)searchBar.getDrawable()).start();
+        }
+
+        if(path.getDrawable() instanceof Animatable){
+            ((Animatable)path.getDrawable()).start();
         }
     }
 }
