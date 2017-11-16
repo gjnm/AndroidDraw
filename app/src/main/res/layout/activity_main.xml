@@ -40,5 +40,12 @@
             android:layout_margin="5dp"
             android:text="VectorDrawable演示" />
 
+        <Button
+            android:id="@+id/but05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="扫描动画" />
+
     </LinearLayout>
 </ScrollView>

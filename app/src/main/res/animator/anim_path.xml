@@ -2,7 +2,7 @@
 <set xmlns:androd="http://schemas.android.com/apk/res/android">
 
     <objectAnimator
-        androd:duration="4000"
+        androd:duration="5000"
         androd:propertyName="trimPathStart"
         androd:repeatCount="infinite"
         androd:repeatMode="reverse"
@@ -12,12 +12,12 @@
     </objectAnimator>
 
     <objectAnimator
-        androd:duration="4000"
+        androd:duration="5000"
         androd:propertyName="strokeColor"
         androd:repeatCount="infinite"
         androd:repeatMode="reverse"
-        androd:valueFrom="@android:color/holo_red_dark"
-        androd:valueTo="@android:color/darker_gray"
+        androd:valueFrom="#ffcc0000"
+        androd:valueTo="#ffccaaff"
         androd:valueType="intType">
     </objectAnimator>
 

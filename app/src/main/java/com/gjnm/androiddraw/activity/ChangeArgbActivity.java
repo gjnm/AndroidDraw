@@ -1,4 +1,4 @@
-package com.gjnm.androiddraw;
+package com.gjnm.androiddraw.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -13,7 +13,10 @@ import android.util.Log;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 
-public class ChangeArgbActivity extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener {
+import com.gjnm.androiddraw.R;
+import com.gjnm.androiddraw.baseclass.BaseActivity;
+
+public class ChangeArgbActivity extends BaseActivity implements SeekBar.OnSeekBarChangeListener {
     public static String TAG = "AppCompatActivity";
 
     public ImageView icon;
